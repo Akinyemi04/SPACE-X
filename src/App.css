@@ -530,7 +530,7 @@ h2{
   }
   .body{
     top: 60vh;
-    right:8vh;
+    right:5vh;
   }
   .alien h1{
     font-size: 56px;
@@ -928,6 +928,9 @@ h2{
   border: 1px solid rgba(255, 255, 255, 0.04);
   background-color:rgb(80, 77, 77) ;
   border-radius: 50%;
+}
+.Loner{
+  height: 110vh;
 }
 .Loner p {
   position: absolute;
