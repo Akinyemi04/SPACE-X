@@ -1,7 +1,7 @@
 import imm from './starter-code/assets/destination/image-moon.png'
-import tim from './starter-code/assets/destination/image-mars.webp'
-import lim from './starter-code/assets/destination/image-europa.webp'
-import tree from './starter-code/assets/destination/image-titan.webp'
+import tim from './starter-code/assets/destination/image-mars.png'
+import lim from './starter-code/assets/destination/image-europa.png'
+import tree from './starter-code/assets/destination/image-titan.png'
 const Assist = (props) => {
     const fee=props.code
     if (props.data ==='moon'){

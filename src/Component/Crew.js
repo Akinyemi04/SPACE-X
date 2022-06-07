@@ -1,8 +1,8 @@
 import Header from "./Header"
-import flip from './starter-code/assets/crew/image-mark-shuttleworth.webp'
-import coin from './starter-code/assets/crew/image-victor-glover.webp'
-import lock from './starter-code/assets/crew/image-anousheh-ansari.webp'
-import sun from './starter-code/assets/crew/image-douglas-hurley.webp'
+import flip from './starter-code/assets/crew/image-mark-shuttleworth.png'
+import coin from './starter-code/assets/crew/image-victor-glover.png'
+import lock from './starter-code/assets/crew/image-anousheh-ansari.png'
+import sun from './starter-code/assets/crew/image-douglas-hurley.png'
 import React,{useState} from 'react'
 const Crew =(props)=>{
   const lot = props.data
