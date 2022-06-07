@@ -69,7 +69,7 @@ const Crew =(props)=>{
           <h1>{lip}</h1>
           <blockquote>{hope}</blockquote>
         </aside>
-        <img src={loop} className='cord'></img>
+        <img src={loop} className='cord' alt=''></img>
     </div>
   )
 }
