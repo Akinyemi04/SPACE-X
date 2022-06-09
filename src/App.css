@@ -20,16 +20,16 @@
 hr{
   position: absolute;
   top:9vh;
-  left: 17vh;
+  left: 11vw;
   display: inline-block;
   flex-direction: row;
-  width: 93vh;
+  width: 39vw;
 }
 .tin{
   display: flex;
-  width: 100vh;
+  width: 52vw;
   margin-top: 2vh;
-  margin-left:95vh;
+  margin-left:40vw;
   flex-direction: row;
   height:14vh;
   background-color:rgba(255, 255, 255, 0.26);
@@ -42,26 +42,26 @@ em{
   font-style: normal;
 }
 .tin .link{
-  padding:5vh 3vh;
+  padding:5vh 2vw;
   color: white;
   text-decoration: none;
 }
 .tin .ark{
-  margin-left: 5vh;
+  margin-left: 4vw;
 }
 #img{
-  width: 9vh;
-  height: 9vh;
-  margin: auto 2vh;
+  width: 55px;
+  height: 55px;
+  margin: 5vh 2vw;
 }
 .valid{
   position: absolute;
   top: 36vh;
-  left: 9vh;
+  left: 7vw;
   color: white;
-  width: 70vh;
+  width: 35vw;
 
-  padding:1vh 2vh;
+  padding:1vh 2vw;
 }
 #cake{
     display: block;
@@ -100,12 +100,12 @@ em{
 .cool{
   position:absolute;
   top: 36vh;
-  left: 140vh;
+  left: 65vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  width:55vh;
-  height: 55vh;
+  width:350px;
+  height: 350px;
   border-radius: 50%;
   background-color:rgba(255, 255, 255, 0.08) ;
   border:1px solid rgba(255, 255, 255, 0.04) ;
@@ -116,8 +116,8 @@ em{
   justify-content: center;
   background-color: white;
   border-radius: 50%;
-  width: 37vh;
-  height: 37vh;
+  width: 280px;
+  height: 280px;
 }
 h2{
   font-family: Bellefair;
@@ -140,8 +140,8 @@ h2{
   }
  
   .tin{
-    margin-left:28vh;
-    width: 46vh;
+    margin-left:28vw;
+    width: 46vw;
     margin-top: 0;
     height: 8vh;
     background-color:rgb(255, 255, 255, 0.04) ;
@@ -149,8 +149,9 @@ h2{
   #img{
     position:absolute;
     top:2vh;
-    width: 5vh;
-    height: 5vh;
+    width: 50px;
+    height: 50px;
+    margin:0
   }
   .use header{
     
@@ -158,8 +159,8 @@ h2{
     top: 0;
   }
   .tin .link{
-    padding: 0 1vh;
-    margin-left: 2vh;
+    padding: 0 1vw;
+    margin-left: 2vw;
     padding-top:2vh ;
   
   }
@@ -168,18 +169,18 @@ h2{
   }
   .valid{
     top:16vh;
-    width: 45vh;
+    width: 45vw;
   }
   .cool{
     top:50vh;
-    left:18vh;
+    left:18vw;
     background-color: inherit;
     border: none;
-    width:33vh;
+    width:33vw;
     height: 33vh;
   }
   .cool h2{
-    width: 20vh;
+    width: 20vw;
     height: 20vh;
   }
 }
@@ -191,8 +192,8 @@ h2{
     margin-top: 1vh;
   }
   .valid{
-    width: 50vh;
-    top: 24vh;
+    width: 90vw;
+    top: 18vh;
   }
   .use{
     background-image: url(./Component/starter-code/assets/home/background-home-mobile.jpg);
@@ -203,9 +204,9 @@ h2{
   #hand{
     position: absolute;
     top:1vh;
-    right:1vh;
+    right:1vw;
     display: inline-block;
-    width:6vh;
+    width:9vw;
     height:6vh;
   }
   .tin{
@@ -215,18 +216,18 @@ h2{
     margin-left: 0;
     margin-top: 0vh;
     display:none;
-    margin-left:1vh;
+    margin-left:1vw;
     flex-direction: column;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.16);
-    width:27vh;
+    width:40vw;
     height:100vh;
   }
  .tin  .link{
-    margin-left: 1vh;
+    margin-left: 1vw;
     margin-bottom: 3vh;
     color: white;
-    padding-left: 1vh;
+    padding-left: 1vw;
   }
   .tin .ark{
     margin-top:12vh;
@@ -237,24 +238,26 @@ h2{
   }
   #tot{
     display:none;
-    width:4vh;
+    width:6vw;
     height:4vh;
   }
   .ful{
     position: absolute;
 
     display: none;
-    margin-left: 44vh;
+    margin-left: 44vw;
     z-index:2;
     padding-top:2vh;
     right:0;
     top:2vh;
   }
   .valid h4{
+    margin-left: 8vw;
     font-size: 16px;
     line-height: 19.2px;
   }
   .valid h1{
+    margin-left: 7vw;
     font-size: 80px;
     line-height:100px ;
   }
@@ -267,17 +270,19 @@ h2{
     margin-block-start: 0;
     font-size: 20px;
     line-height: 22.9px;
-    width: 35vh;
-    height: 35vh;
+    width: 170px;
+    height: 170px;
   }
   .cool{
     background-color: inherit;
-    top: 60vh;
-    left: 14vh;
+    top: 62vh;
+    left: 22vw;
+    width: 200px;
+    height:200px;
   }
   #cake{
-    width:43vh;
-    padding-left: 1vh;
+    width:83vw;
+    padding-left: 1vw;
   }
   
 }
@@ -292,27 +297,27 @@ h2{
   display: flex;
   flex-direction: row;
   top: 2vh;
-  height:16vh;
+  height:16vw;
   
 }
 .tass{
-  position:relative ;
-  top:3vh;
-  left: 4vh;
+  position:absolute ;
+  top:22vh;
+  left:1vw;
   display:flex;
   flex-direction: column;
 }
 #lot{
   position: absolute;
   top:40vh ;
-  left: 20vh;
-  width: 50vh;
-  height:50vh;
+  left: 14vw;
+  width: 350px;
+  height:350px;
 }
 #tip{
   display: inline-block;
-  margin-top: 10vh;
-  margin-left: 13vh;
+  margin-top: 1vh;
+  margin-left:4vw;
   color: white;
   font-family:Barlow condensed ;
   font-weight: 400;
@@ -323,12 +328,12 @@ h2{
 #em{
   letter-spacing:0;
   color:rgb(80, 77, 77) ;
-  margin-right: 2vh;
+  margin-right: 2vw;
 }
 .body{
   position: absolute;
   top: 33vh;
-  right: 50vh;
+  right: 20vw;
   display: flex;
   flex-direction: row;
   background-color: inherit;
@@ -338,7 +343,7 @@ h2{
   background-color: inherit;
   border: none;
   color: rgba(255, 255, 255, 1);
-  margin-left: 6vh;
+  margin-left: 2vw;
   font-family: Barlow Condensed;
   font-size:16px;
   line-height: 19px;
@@ -346,19 +351,19 @@ h2{
 .alien{
   position: absolute;
   top: 42vh;
-  right: 30vh;
-  width:87vh;
+  right: 11vw;
+  width:40vw;
   display: flex;
   flex-direction: column;
   
 }
 .alien .vim{
   position: absolute;
-  top:40vh;
-  left:1vh;
+  top:45vh;
+  left:1vw;
   display: inline-block;
   flex-direction: row;
-  width: 87vh;
+  width: 40vw;
 }
 .alien h1{
   font-family:Bellafair;
@@ -368,10 +373,10 @@ h2{
   color: white;
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-left: 9vh;
+  margin-left: 9vw;
 }
 .alien blockquote{
-  margin-left: 9vh;
+  margin-left: 9vw;
   color:rgba(208, 214, 249, 1);
   font-family: Barlow;
   font-weight: 400;
@@ -386,7 +391,7 @@ h2{
 }
 .diva span{
   margin-top: 8vh;
-  margin-left: 6vh;
+  margin-left: 6vw;
   color: rgba(208, 214, 249, 1);
   font-weight: 300;
   font-size: 14px;
@@ -394,7 +399,7 @@ h2{
   letter-spacing: 2.3px;
 }
 .diva p{
-  margin-left: 6vh;
+  margin-left: 6vw;
   font-family: Bellefair;
   font-weight: 400;
   font-size: 28px;
@@ -406,16 +411,16 @@ h2{
 .alien .tim{
     position: absolute;
     top:37vh;
-    left:1vh;
+    left:1vw;
     display: inline-block;
     flex-direction: row;
-    width: 87vh; 
+    width: 87vw; 
 }
 @media screen and (min-width:601px) and (max-width:1280px){
   #tip{
     display: inline-block;
-    margin-top: 1vh;
-    margin-left: 1vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
     color: white;
     font-family: Barlow condensed;
     font-weight: 400;
@@ -427,8 +432,8 @@ h2{
   }
   .tass{
     position: absolute;
-    top: 12vh;
-    left: 3vh;
+    top: 15vh;
+    left: 3vw;
   }
   #em{
     font-weight: 400;
@@ -438,28 +443,33 @@ h2{
   }
   #lot{
     top: 22vh;
-    left: 44vh;
-    width: 40vh;
-    height: 40vh;
+    left: 30vw;
+    width: 250px;
+    height: 250px;
   }
   .body{
     top:63vh;
-    left:39vh;
+    left:24vw;
+    right:0;
+
   }
   .body button{
-    margin-left:3vh;
+    margin-left:3vw;
   }
   .alien{
     top:70vh;
-    width:70vh ;
+    width:70vw ;
   }
   .alien h1{
     font-size: 80px;
     line-height: 91px;
+    margin-left: 13vw;
   }
   .alien blockquote{
     font-size: 16px;
     line-height: 28px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
   }
   .diva span{
     margin-left: 9vh;
@@ -469,7 +479,7 @@ h2{
   }
   .diva p{
     margin-top: 1vh;
-    margin-left:9vh;
+    margin-left:9vw;
     font-size: 28px;
     line-height: 32px;
   }
@@ -483,14 +493,14 @@ h2{
   }
   .alien .vim{
     top: 24vh;
-    width: 60vh;
+    width: 71vw;
   }
   #img{
-    left:1vh;
+    left:2vw;
   }
   .alien .tim{
     top: 28vh;
-    width: 60vh;
+    width: 60vw;
   }
   .Des{
     height: 115vh;
@@ -498,11 +508,11 @@ h2{
 }
 @media screen and (min-width:360px) and (max-width:414px) {
   .Des{
-    height: 125vh;
+    height: 115vh;
   }
   #tip{
     display: inline-block;
-    width: 55vh;
+    width: 85vw;
     font-size: 16px;
     line-height: 19.2px;
     letter-spacing: 2.7px;
@@ -517,20 +527,20 @@ h2{
     letter-spacing: 2.7px;
   }
   #lot{
-    left:16vh;
-    width: 35vh;
-    height: 35vh;
+    left:26vw;
+    width:170px;
+    height:170px;
     top: 22vh;
   }
   .body button{
     font-size: 14px;
     line-height: 16.8px;
     letter-spacing: 2.36px;
-    margin-left: 1vh;
+    margin-left: 1vw;
   }
   .body{
-    top: 60vh;
-    right:5vh;
+    top: 48vh;
+    right:5vw;
   }
   .alien h1{
     font-size: 56px;
@@ -544,26 +554,27 @@ h2{
     margin-inline-end:5px;
   }
   .alien .vim{
-    top: 35vh;
-    width: 50vh;
-    right: 1vh;
+    top: 27vh;
+    width:80vw;
+    right: 1vw;
     left: 0;
   }
   .alien{
-    width: 55vh;
-    top: 62vh;
-    right:4vh;
+    width: 90vw;
+    top: 54vh;
+    right:0;
+    left: 5vw;
   }
   .diva span{
     font-size: 14px;
-    margin-left: 18vh;
+    margin-left: 18vw;
     padding-bottom: 1vh;
     line-height: 16px;
     letter-spacing: 2.3px;
   }
   .diva p{
     font-size:28px;
-    margin-left: 16vh;
+    margin-left: 16vw;
     line-height: 32px;
   }
   .diva{
@@ -571,25 +582,25 @@ h2{
   }
   .diva #range{
     position: absolute;
-    margin-left: 17vh;
+    margin-left: 17vw;
     top: 12vh;
   }
   .diva #lane{
     position: absolute;
     top: 13vh;
-    margin-left: 19vh;
+    margin-left: 19vw;
   }
   .alien .tim{
-    width: 50vh;
-    top: 33vh;
-    left: 3vh;
+    width: 80vw;
+    top: 24vh;
+    left: 3vw;
   }
   .Des header{
     top: 0;
   }
   .tass{
-    top: 2vh;
-    width: 55vh;
+    top:12vh;
+    width: 85vw;
   }
   
 }
@@ -598,13 +609,13 @@ h2{
     height: 132vh;
   }
   .alien .mim{
-    top:44vh
+    top: 30vh
   }
   .alien .lim{
     top: 39vh;
   }
   .alien .tim{
-    top:38vh;
+    top:26vh;
   }
 }
 .Tail{
@@ -633,7 +644,7 @@ h2{
 }
 .Tail p{
   position: absolute;
-  left:10vh;
+  left:10vw;
   top: 22vh;
   font-size: 28px;
   font-family: Barlow Condensed;
@@ -648,8 +659,8 @@ h2{
 .save{
   position:absolute;
   top: 45vh;
-  left: 9vh;
-  width: 20vh;
+  left: 9vw;
+  width: 20vw;
   display: flex;
   flex-direction: column;
 }
@@ -658,12 +669,12 @@ h2{
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.04);
   color: white;
-  width: 10vh;
-  height: 10vh;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   margin-bottom: 3vh;
-  margin-left: 1vh;
-  margin-right: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   font-size:32px ;
   font-family: Bellefair;
   font-weight: 400;
@@ -678,23 +689,23 @@ h2{
 }
 .loop{
   position:absolute;
-  top: 22vh;
-  right: 0vh;
+  top: 34vh;
+  right: 0vw;
   display: flex;
   flex-direction: row;
 }
 .loop body{
   position: absolute;
-  top: 20vh;
-  left:-98vh;
+  top: 10vh;
+  right:40vw;
   display: flex;
   flex-direction: column;
-  width: 74vh;
+  width: 40vw;
 }
 .loop img{
-  margin-left: 16vh;
-  width:60vh;
-  height: 70vh;
+  margin-left: 16vw;
+  width:30vw;
+  height: 60vh;
 }
 .loop body h3{
   font-family: Barlow Condensed;
@@ -727,6 +738,7 @@ h2{
 }
 @media screen and (min-width:601px) and (max-width:1280px) {
   .loop{
+    top: 22vh;
     flex-direction:column-reverse;
     left: 0;
   }
@@ -749,52 +761,52 @@ h2{
     line-height: 24px;
     letter-spacing: 3.38px;
     top: 10vh;
-    left: 5vh;
+    left: 5vw;
   }
   .loop body{
-    width: 70vh;
-    left:19vh;
+    width: 70vw;
+    left:10vw;
   }
   .loop img{
     margin-left: 0;
     width:100%;
-    height: 35vh;
+    height: 40vh;
   }
   .save{
-    left: 44vh;
+    left: 36vw;
     flex-direction: row;
-    top:61vh;
-    width:30vh;
+    top:65vh;
+    width:30vw;
   }
   .save button{
-    width: 8vh;
+    width: 8vw;
     height: 8vh;
     font-size: 24px;
     letter-spacing: 1.5px;
     line-height: 27.5px;
   }
   .loop body {
-    top:49vh;    
+    top:54vh;    
   }
   .loop body h3{
-    margin-left: 22vh;
+    margin-left: 22vw;
     margin-bottom: 3vh;
   }
   .loop body h1{
-    margin-left: 10vh;
+    margin-left: 10vw;
     white-space: nowrap;
     margin-bottom: 3vh;
   }
   .loop body blockquote{
     position: relative;
-    left: 14vh;
+    left: 1vw;
     margin-left:0;
     margin-bottom: 1vh;
     margin-inline-start: 0;
     margin-inline-end: 0;
   }
   .loop body .space{
-    margin-left:17vh;
+    margin-left:17vw;
   }
 }
 @media screen and (min-width:360px) and (max-width:414px) {
@@ -803,9 +815,10 @@ h2{
     line-height: 19.2px;
     letter-spacing: 2.7px;
     top: 10vh;
+    left: 5vw;
   }
   .Tail{
-    height: 110vh;
+    height: 100vh;
   }
   #lim{
     font-size: 16px;
@@ -821,13 +834,18 @@ h2{
     height:27vh;
     width:100%;;
   }
+  .loop{
+    top: 15vh;
+  }
   .loop body h1{
-    margin-left:10vh;
+    margin-left:18vw;
+    margin-bottom: 2vh;
     font-size: 26px;
     line-height: 27.5px;
   }
   .loop body h3{
-    margin-left:13vh;
+    margin-bottom: 2vh;
+    margin-left:27vw;
     font-size: 14px;
     color: rgba(208, 214, 249, 1);
     line-height: 16.8px;
@@ -837,13 +855,13 @@ h2{
     font-size: 15px;
     line-height: 25px;
     margin-inline-end: 0px;
-    margin-inline-start:2vh;
-    margin-left:3vh;
+    margin-inline-start:2vw;
+    margin-left:3vw;
   }
   .loop body{
     top: 44vh;
-    width:50vh;
-    left:4vh;
+    width:90vw;
+    left:2vw;
   }
   .save button{
     font-size: 16px;
@@ -851,17 +869,17 @@ h2{
     line-height: 18px;
   }
   .save{
-    width: 40vh;
-    top: 50vh;
+    width: 50vw;
+    top: 45vh;
     flex-direction: row;
-    left: 14vh;
+    left: 26vw;
   }
   
 }
 @media screen and (min-width:600px) and (max-width:1280px) {
   .tin{
-    margin-left:45vh;
-    width:70vh;
+    margin-left:40vw;
+    width:60vw;
     height: 10vh;
   }
   .tin .link{
@@ -869,22 +887,22 @@ h2{
   }
   .valid{
     top: 19vh;
-    left: 41vh;
-    width: 65vh;
+    left: 20vw;
+    width: 65vw;
   }
   .valid h4{
-    margin-inline-start: 6vh;
+    margin-inline-start: 6vw;
     font-size: 24px;
   }
   .cool{
-    top: 64vh;
-    left: 50vh;
-    width: 50vh;
-    height: 50vh;
+    top: 68vh;
+    left: 40vw;
+    width: 280px;
+    height: 280px;
   }
   .cool h2{
-    width: 33vh;
-    height: 33vh;
+    width: 250px;
+    height: 250px;
   }
 }
 @media screen and (max-height:606px) {
@@ -893,49 +911,49 @@ h2{
   }
   .cool{
     top: 82vh;
-    width: 40vh;
+    width: 40vw;
     height: 40vh;
   }
   
 }
 @media screen and (min-width:600px) and (max-width:726px) {
   .valid{
-    left: 30vh;
+    left: 30vw;
   }
   .valid h1{
     font-size: 120px;
   }
   .valid h4{
     font-size:20px;
-    margin-inline-start: 4vh;
+    margin-inline-start: 4vw;
   }
   .tin{
-    width:70vh;
-    margin-left: 37vh;
+    width:70vw;
+    margin-left: 37vw;
   }
   
 }
 .flex{
   top: 90vh;
-  left: 10vh;
+  left: 10vw;
   position:absolute;
   display: flex;
   flex-direction: row;
 }
 .flex button{
-  margin-left: 2vh;
-  padding:1vh;
+  margin-left: 2vw;
+  padding:10px;
   border: 1px solid rgba(255, 255, 255, 0.04);
   background-color:rgb(80, 77, 77) ;
   border-radius: 50%;
 }
 .Loner{
-  height: 110vh;
+  height: 100vh;
 }
 .Loner p {
   position: absolute;
   top: 17vh ;
-  left: 7vh;
+  left: 7vw;
   color: white;
   font-family: Barlow Condensed;
   font-weight: 400;
@@ -953,11 +971,11 @@ h2{
 }
 .wise{
   display: flex;
-  width: 79vh;
+  width: 50vw;
   flex-direction: column;
   position: relative;
-  top: 22vh;
-  left: 10vh;
+  top: 26vh;
+  left: 10vw;
 }
 .wise h3{
   display: inline-block;
@@ -992,10 +1010,10 @@ h2{
 }
 .cord{
   position: absolute;
-  top: 25vh;
-  right: 28vh;
-  width: 59vh;
-  height: 75vh;
+  right: 6vw;
+  width: 28vw;
+  height: 65vh;
+  bottom:0vh;
 }
 @media screen and (min-width:600px) and (max-width:1280px) {
   .Loner p{
@@ -1010,14 +1028,14 @@ h2{
     letter-spacing: 3.3px;
   }
   .wise h3{
-    margin-left: 20vh;
+    margin-left: 20vw;
     font-size: 24px;
     line-height: 27.5px;
     margin-bottom: 2vh;
 
   }
   .wise h1{
-    margin-left: 8vh;
+    margin-left: 8vw;
     font-size: 40px;
     line-height: 45.8px;
   }
@@ -1026,20 +1044,23 @@ h2{
     line-height: 28px;
   }
   .cord{
-    top: 59vh;
-    right: 50vh;
+    bottom: 0vh;
+    right: 33vw;
     height: 40vh;
-    width: 30vh;
+    width: 30vw;
   }
   .wise{
     top: 7vh;
-    left: 25vh;
-    width: 75vh;
+    left: 22vw;
+    width: 75vw;
   }
   .flex{
     top:54vh;
-    left:54vh;
+    left:44vw;
     z-index: 2;
+  }
+  .flex button{
+    padding:7px;
   }
   .Loner header{
     top:0vh;
@@ -1053,9 +1074,11 @@ h2{
 }
 @media screen and (min-width:360px) and (max-width:414px) {
   .save button{
-    width: 7vh;
-    height: 7vh;
+    width: 40px;
+    height: 40px;
+    margin-left:1vh;
   }
+ 
   .Loner p{
     font-size: 16px;
     line-height: 19px;
@@ -1067,10 +1090,13 @@ h2{
     letter-spacing: 2.7px;
   }
   .wise h3{
+    margin-left: 8vh;
+    margin-bottom: 2vh;
     font-size: 16px;
     line-height: 18.3px;
   }
   .wise h1{
+    margin-left: 9vw;
     font-size: 24px;
     line-height: 27.5px;
   }
@@ -1079,18 +1105,21 @@ h2{
     line-height: 25px;
   }
   .cord{
-    width: 25vh;
+    width: 50vw;
     height: 35vh;
     top: 24vh;
-    right:10vh;
+    right:28vw;
+  }
+  .flex button{
+    padding: 4px;
   }
   .wise{
-    width: 47vh;
+    width: 87vw;
     top: 53vh;
   }
 .flex{
   top:63vh;
-  left:17vh;
+  left:37vw;
 }
 .Loner header{
   top: 0;
