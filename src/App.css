@@ -539,7 +539,7 @@ h2{
     margin-left: 1vw;
   }
   .body{
-    top: 48vh;
+    top: 50vh;
     right:5vw;
   }
   .alien h1{
@@ -554,7 +554,7 @@ h2{
     margin-inline-end:5px;
   }
   .alien .vim{
-    top: 27vh;
+    top: 30vh;
     width:80vw;
     right: 1vw;
     left: 0;
@@ -829,7 +829,7 @@ h2{
     top: 0vh;
   }
   .loop img{
-    
+    margin-top:4vh;
     margin-left: 0;
     height:27vh;
     width:100%;;
@@ -859,7 +859,7 @@ h2{
     margin-left:3vw;
   }
   .loop body{
-    top: 44vh;
+    top: 46vh;
     width:90vw;
     left:2vw;
   }
@@ -870,7 +870,7 @@ h2{
   }
   .save{
     width: 50vw;
-    top: 45vh;
+    top: 51vh;
     flex-direction: row;
     left: 26vw;
   }
@@ -1103,6 +1103,9 @@ h2{
   .wise blockquote{
     font-size: 15px;
     line-height: 25px;
+  }
+  .Loner{
+    height: 103vh;
   }
   .cord{
     width: 50vw;
