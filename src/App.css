@@ -499,7 +499,7 @@ h2{
     left:2vw;
   }
   .alien .tim{
-    top: 28vh;
+    top: 25vh;
     width: 60vw;
   }
   .Des{
@@ -609,13 +609,13 @@ h2{
     height: 132vh;
   }
   .alien .mim{
-    top: 30vh
+    top: 20vh
   }
   .alien .lim{
-    top: 39vh;
+    top: 22vh;
   }
   .alien .tim{
-    top:28vh;
+    top:21vh;
   }
 }
 .Tail{
@@ -706,6 +706,7 @@ h2{
   margin-left: 16vw;
   width:30vw;
   height: 60vh;
+  object-fit:fill;
 }
 .loop body h3{
   font-family: Barlow Condensed;
@@ -771,6 +772,7 @@ h2{
     margin-left: 0;
     width:100%;
     height: 40vh;
+    object-fit: fill;
   }
   .save{
     left: 36vw;
@@ -1011,7 +1013,9 @@ h2{
 .cord{
   position: absolute;
   right: 6vw;
+  object-fit: fill;
   width: 28vw;
+  z-index: 2;
   height: 65vh;
   bottom:0vh;
 }
