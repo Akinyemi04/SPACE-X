@@ -17,7 +17,7 @@ const Techno = (props) => {
                 </body> 
                 <picture>
                     <source srcSet={imi} media='(max-width:375px)'></source>
-                    <source srcSet={imi} media='(max-width:1000px)'></source>
+                    <source srcSet={imi} media='(max-width:1050px)'></source>
                     <img src={img} alt=''></img>
                 </picture>
             </div>
@@ -32,7 +32,7 @@ const Techno = (props) => {
                 </body> 
                 <picture>
                     <source srcSet={lifi} media='(max-width:375px)'></source>
-                    <source srcSet={lifi} media='(max-width:1000px)'></source>
+                    <source srcSet={lifi} media='(max-width:1050px)'></source>
                     <img src={lift} alt=''></img>
                 </picture>
           </div>
@@ -49,7 +49,7 @@ const Techno = (props) => {
                 </body> 
                 <picture>
                     <source srcSet={tili} media='(max-width:375px)'></source>
-                    <source srcSet={tili} media='(max-width:1000px)'></source>
+                    <source srcSet={tili} media='(max-width:1050px)'></source>
                     <img src={tilt} alt=''></img>
                 </picture>
           </div>
